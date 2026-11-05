@@ -1,0 +1,22 @@
+# Artefak build
+build/
+build-*/
+compile_commands.json
+*.o
+*.a
+*.so
+
+# ROM dan data pengguna tidak boleh masuk repositori.
+games/
+roms/
+*.nes
+
+# Python (hanya alat bantu contoh)
+__pycache__/
+*.pyc
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
